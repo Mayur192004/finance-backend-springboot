@@ -2,6 +2,10 @@ server:
   port: 8080
   forward-headers-strategy: framework
 
+springdoc:
+  swagger-ui:
+    path: /api-docs
+
 spring:
   application:
     name: finance-dashboard
